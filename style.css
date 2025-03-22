@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Fjalla+One&display=swap');
+*{
+    font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+#input{
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/02/07/32/gaming-5120169_1280.jpg);
+    width: 100vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+
+}
+
+#number{
+    width: 180px;
+    height: 40px;
+    font-size: 1.5em;
+    padding: 0px 10px;
+
+}
+
+#button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color:azure;
+    color:black;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 5px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: blueviolet;
+
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    color:black;
+    margin: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    color:black;
+    margin: 10px;
+    text-align: center;
+    width: 80px;
+    height: 50px;
+    background-color: deeppink;
+}
+#box{
+    display: flex;
+    flex-wrap:wrap;
+}
